@@ -1,5 +1,6 @@
 package com.example.rumyantsevok.practice2;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,5 +32,10 @@ public class InfoActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public static Intent newIntent(Context context) {
+        Intent intent = new Intent();
+        intent.
     }
 }

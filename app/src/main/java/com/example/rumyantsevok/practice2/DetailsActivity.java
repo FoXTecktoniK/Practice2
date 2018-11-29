@@ -22,7 +22,7 @@ public class DetailsActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DetailsActivity.this, InfoActivity.class);
+                Intent intent = InfoActivity.newIntent(DetailsActivity.this);
                 startActivity(intent);
             }
         });
